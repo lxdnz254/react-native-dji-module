@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.dependency "React"
   # ...
   # s.dependency "..."
-  s.dependency "DJI-SDK-iOS", "~> 4.15"
+  s.dependency "DJI-SDK-iOS", "~> 4.13"
   s.dependency "DJIWidget", "~> 1.5"
 end
 
