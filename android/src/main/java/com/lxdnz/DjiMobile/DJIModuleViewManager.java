@@ -9,7 +9,9 @@ import androidx.appcompat.widget.AppCompatCheckBox;
 import com.facebook.react.uimanager.SimpleViewManager;
 import com.facebook.react.uimanager.ThemedReactContext;
 
-public class DJIModuleViewManager extends SimpleViewManager<View> {
+import com.lxdnz.DjiMobile.Views.DroneVideo;
+
+public class DJIModuleViewManager extends SimpleViewManager<DroneVideo> {
 
     public static final String REACT_CLASS = "DJIModuleView";
 
@@ -20,9 +22,6 @@ public class DJIModuleViewManager extends SimpleViewManager<View> {
 
     @Override
     public View createViewInstance(ThemedReactContext c) {
-        // TODO: Implement some actually useful functionality
-        AppCompatCheckBox cb = new AppCompatCheckBox(c);
-        cb.setChecked(true);
-        return cb;
+        return new DroneVideo(c);
     }
 }
