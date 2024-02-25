@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   react-native-dji-module
                    DESC
-  s.homepage     = "https://github.com/lxdnz254/react-native-dji-module"
+  s.homepage     = "https://github.com/lxdnz254/react-native-dji-module#README"
   # brief license entry:
   s.license      = "MIT"
   # optional - use expanded license entry instead:
@@ -26,5 +26,7 @@ Pod::Spec.new do |s|
   s.dependency "React"
   # ...
   # s.dependency "..."
+  s.dependency "DJI-SDK-iOS", "~> 4.15"
+  s.dependency "DJIWidget", "~> 1.5"
 end
 

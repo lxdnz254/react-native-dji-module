@@ -2,7 +2,7 @@
   "name": "react-native-dji-module",
   "title": "React Native Dji Module",
   "version": "1.0.0",
-  "description": "TODO",
+  "description": "A React Native module for the DJI Mobile SDK",
   "main": "index.js",
   "files": [
     "README.md",
